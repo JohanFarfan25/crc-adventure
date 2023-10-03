@@ -1,0 +1,127 @@
+.itinerario{
+    background: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px #CCC;
+}
+
+.itinerario__contenido{
+    padding: 1rem;
+}
+
+.itinerario__imagen{
+    height: 300px;
+}
+
+.itinerario__titulo{
+    font-size: 2rem;
+    color: #486671;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+}
+
+.itinerario_modal_titulo{
+    font-size: 2rem;
+    color: #486671;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+}
+
+.itinerario_modal_contenido{
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    box-shadow: 8px 8px 8px #CCC;
+}
+.itinerario_modal_contenido p{
+    color: #8C8888;
+}
+
+.itinerario_modal_lista{
+    text-align: justify;
+}
+
+.itinerario__descripcion{
+    font-size: 1.1875rem;
+    color: #8C8888;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.itinerario__boton{
+    background:#486671;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: 1rem;
+    transition: all .1s ease-in-out ;
+}
+
+.itinerario__boton:hover{
+    cursor: pointer;
+    background: #486671;
+}
+
+.itinerario__paisaje{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.itinerario__paisaje__logo{
+    width: 40%;
+    height: 30%;
+    border-radius: 100%;
+    margin-top: -2rem;
+}
+
+
+
+@media screen and (min-width:0){
+    .itinerario{
+        margin-right: 1rem;
+        width: 100%;
+    }
+    .itinerario__paisaje{
+        display: none;
+     }
+     
+}
+
+@media screen and (min-width:768px){
+    .itinerario{
+        margin-right: 2.5rem;
+        width: 80%
+    }
+    .itinerario__paisaje{
+       display: none;
+    }
+    
+}
+
+@media screen and (min-width:992px){
+    .itinerario{
+        margin-right: 5rem;
+        width: 50%
+    }
+
+    .itinerario__paisaje{
+        display: flex;
+     }
+
+    .itinerario__paisaje{
+        width: 40%;
+        height: 50%;
+        margin-bottom: 5rem;
+        border-radius: 20px;
+    }
+    .itinerario__paisaje__imagen{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 5rem;
+        border-radius: 20px;
+    }
+    
+}

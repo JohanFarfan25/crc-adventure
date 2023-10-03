@@ -1,0 +1,33 @@
+.valores {
+    text-align: center;
+    margin-top: 3rem;
+
+}
+
+.titulo_valores {
+    color: #486671;
+    font-family: Pacifico, cursive;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.description__valores {
+    color: #8C8888;
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    text-align: center;
+    padding: 40px;
+}
+
+@media screen and (min-width:0) {
+    .titulo_valores {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .titulo_valores {
+        font-size: 3.1875rem;
+    }
+}

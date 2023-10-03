@@ -1,0 +1,22 @@
+.itinerarios{
+    background: #cde4ef;
+    display: flex;
+}
+
+@media screen and (min-width:0){
+    .itinerarios {
+        padding: 5rem 0 0 1rem;
+    }
+}
+
+@media screen and (min-width:768px){
+        .itinerarios {
+            padding: 5rem 0 0 2.5rem;
+    }
+}
+
+@media screen and (min-width:992px){
+    .itinerarios {
+        padding: 5rem 0 0 5rem;
+    }
+}

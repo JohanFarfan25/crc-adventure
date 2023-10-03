@@ -1,0 +1,21 @@
+.persona__imagen{
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.persona__imagen--paula{
+    background-image: url('../../img/personas/paula.jpeg');
+}
+
+.persona__imagen--catalina{
+    background-image: url('../../img/personas/catalina.jpeg');
+}
+
+.persona__imagen--nicolas{
+    background-image: url('../../img/personas/nicolas.jpeg');
+}
